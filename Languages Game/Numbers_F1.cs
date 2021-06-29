@@ -29,83 +29,90 @@ namespace Languages_Game
 
         private void displayNumbers()
         {
-            lbl1.Text = "un";
-            lbl2.Text = "deux";
-            lbl3.Text = "trois";
-            lbl4.Text = "quatre";
-            lbl5.Text = "cinq";
-            lbl6.Text = "six";
-            lbl7.Text = "sept";
-            lbl8.Text = "huit";
-            lbl9.Text = "neuf";
-            lbl10.Text = "dix";
+            lbl1.Text = "Un";
+            lbl2.Text = "Deux";
+            lbl3.Text = "Trois";
+            lbl4.Text = "Quatre";
+            lbl5.Text = "Cinq";
+            lbl6.Text = "Six";
+            lbl7.Text = "Sept";
+            lbl8.Text = "Huit";
+            lbl9.Text = "Neuf";
+            lbl10.Text = "Dix";
         }
 
         private void btnUn_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\un.wav";
+            player.SoundLocation = "Un.wav";
             player.Play();
         }
 
         private void btnDeux_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\deux.wav";
+            player.SoundLocation = "Deux.wav";
             player.Play();
         }
 
         private void btnTrois_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\trois.wav";
+            player.SoundLocation = "Trois.wav";
             player.Play();
         }
 
         private void btnQuatre_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\quatre.wav";
+            player.SoundLocation = "Quatre.wav";
             player.Play();
         }
 
         private void btnCinq_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\cinq.wav";
+            player.SoundLocation = "Cinq.wav";
             player.Play();
         }
 
         private void btnSix_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\six.wav";
+            player.SoundLocation = "Six.wav";
             player.Play();
         }
 
         private void btnSept_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\sept.wav";
+            player.SoundLocation = "Sept.wav";
             player.Play();
         }
 
         private void btnHuit_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\huit.wav";
+            player.SoundLocation = "Huit.wav";
             player.Play();
         }
 
         private void btnNeuf_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\neuf.wav";
+            player.SoundLocation = "Neuf.wav";
             player.Play();
         }
 
         private void btnDix_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\dix.wav";
+            player.SoundLocation = "Dix.wav";
             player.Play();
         }
 
         private void btnContinue_Click(object sender, EventArgs e)
         {
+            FrmNumbers_F2 F2 = new FrmNumbers_F2();
             this.Hide();
-            FrmNumbers_F2 numbers = new FrmNumbers_F2();
-            numbers.ShowDialog();
+            F2.ShowDialog();
+        }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            FrmCategoriesF F = new FrmCategoriesF();
+            this.Hide();
+            F.ShowDialog();
         }
     }
 }

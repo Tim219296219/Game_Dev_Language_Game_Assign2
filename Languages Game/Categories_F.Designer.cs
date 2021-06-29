@@ -29,28 +29,29 @@ namespace Languages_Game
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnGreetings = new System.Windows.Forms.Button();
+            this.btnPhrases = new System.Windows.Forms.Button();
             this.btnNumbers = new System.Windows.Forms.Button();
             this.btnShapes = new System.Windows.Forms.Button();
             this.btnAnimals = new System.Windows.Forms.Button();
             this.lblHeading = new System.Windows.Forms.Label();
+            this.btnFruits = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // btnGreetings
+            // btnPhrases
             // 
-            this.btnGreetings.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGreetings.Location = new System.Drawing.Point(230, 107);
-            this.btnGreetings.Name = "btnGreetings";
-            this.btnGreetings.Size = new System.Drawing.Size(110, 45);
-            this.btnGreetings.TabIndex = 0;
-            this.btnGreetings.Text = "Greetings";
-            this.btnGreetings.UseVisualStyleBackColor = true;
-            this.btnGreetings.Click += new System.EventHandler(this.btnGreetings_Click);
+            this.btnPhrases.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPhrases.Location = new System.Drawing.Point(142, 77);
+            this.btnPhrases.Name = "btnPhrases";
+            this.btnPhrases.Size = new System.Drawing.Size(110, 45);
+            this.btnPhrases.TabIndex = 0;
+            this.btnPhrases.Text = "Phrases";
+            this.btnPhrases.UseVisualStyleBackColor = true;
+            this.btnPhrases.Click += new System.EventHandler(this.btnPhrases_Click);
             // 
             // btnNumbers
             // 
             this.btnNumbers.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNumbers.Location = new System.Drawing.Point(230, 167);
+            this.btnNumbers.Location = new System.Drawing.Point(142, 137);
             this.btnNumbers.Name = "btnNumbers";
             this.btnNumbers.Size = new System.Drawing.Size(110, 45);
             this.btnNumbers.TabIndex = 1;
@@ -61,7 +62,7 @@ namespace Languages_Game
             // btnShapes
             // 
             this.btnShapes.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnShapes.Location = new System.Drawing.Point(230, 231);
+            this.btnShapes.Location = new System.Drawing.Point(142, 201);
             this.btnShapes.Name = "btnShapes";
             this.btnShapes.Size = new System.Drawing.Size(110, 45);
             this.btnShapes.TabIndex = 2;
@@ -72,7 +73,7 @@ namespace Languages_Game
             // btnAnimals
             // 
             this.btnAnimals.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnimals.Location = new System.Drawing.Point(230, 293);
+            this.btnAnimals.Location = new System.Drawing.Point(142, 263);
             this.btnAnimals.Name = "btnAnimals";
             this.btnAnimals.Size = new System.Drawing.Size(110, 45);
             this.btnAnimals.TabIndex = 3;
@@ -83,24 +84,40 @@ namespace Languages_Game
             // lblHeading
             // 
             this.lblHeading.AutoSize = true;
-            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.Location = new System.Drawing.Point(194, 51);
+            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
+            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.Location = new System.Drawing.Point(106, 21);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(76, 25);
+            this.lblHeading.Size = new System.Drawing.Size(179, 25);
             this.lblHeading.TabIndex = 4;
-            this.lblHeading.Text = "label1";
+            this.lblHeading.Text = "Select a category";
+            // 
+            // btnFruits
+            // 
+            this.btnFruits.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFruits.Location = new System.Drawing.Point(142, 330);
+            this.btnFruits.Name = "btnFruits";
+            this.btnFruits.Size = new System.Drawing.Size(110, 45);
+            this.btnFruits.TabIndex = 5;
+            this.btnFruits.Text = "Fruits";
+            this.btnFruits.UseVisualStyleBackColor = true;
+            this.btnFruits.Click += new System.EventHandler(this.btnFruits_Click);
             // 
             // FrmCategoriesF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(584, 412);
+            this.BackgroundImage = global::Languages_Game.Properties.Resources.French_oragami;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(384, 412);
+            this.Controls.Add(this.btnFruits);
             this.Controls.Add(this.lblHeading);
             this.Controls.Add(this.btnAnimals);
             this.Controls.Add(this.btnShapes);
             this.Controls.Add(this.btnNumbers);
-            this.Controls.Add(this.btnGreetings);
+            this.Controls.Add(this.btnPhrases);
+            this.MaximizeBox = false;
             this.Name = "FrmCategoriesF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Language Game";
@@ -111,10 +128,11 @@ namespace Languages_Game
 
         #endregion
 
-        private System.Windows.Forms.Button btnGreetings;
+        private System.Windows.Forms.Button btnPhrases;
         private System.Windows.Forms.Button btnNumbers;
         private System.Windows.Forms.Button btnShapes;
         private System.Windows.Forms.Button btnAnimals;
         private System.Windows.Forms.Label lblHeading;
+        private System.Windows.Forms.Button btnFruits;
     }
 }

@@ -20,19 +20,21 @@ namespace Languages_Game
 
         private void displayHeading()
         {
-            lblHeading.Text = "Select a language to learn";
+            lblHeading.Text = "Select a language";
         }
 
         private void btnFrench_Click(object sender, EventArgs e)
         {
             FrmCategoriesF category = new FrmCategoriesF();
-            category.ShowDialog();
             this.Hide();
+            category.ShowDialog();
         }
 
         private void btnSpanish_Click(object sender, EventArgs e)
         {
-
+            FrmCategoriesS category = new FrmCategoriesS();
+            this.Hide();
+            category.ShowDialog();
         }
 
     }

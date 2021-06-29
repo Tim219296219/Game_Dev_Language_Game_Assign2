@@ -22,7 +22,7 @@ namespace Languages_Game
 
         private void displayHeading()
         {
-            lblHeading.Text = "Look at the following shapes in french   ";
+            lblHeading.Text = "Look at the following shapes in french";
         }
 
         private void displayShapes()
@@ -37,46 +37,52 @@ namespace Languages_Game
 
         private void btnCarré_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Carré.wav";
+            player.SoundLocation = "Carré.wav";
             player.Play();
         }
 
         private void btnTriangle_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Triangle.wav";
+            player.SoundLocation = "Triangle.wav";
             player.Play();
         }
 
         private void btnOvale_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Ovale.wav";
+            player.SoundLocation = "Ovale.wav";
             player.Play();
         }
 
         private void btnCercle_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Cercle.wav";
+            player.SoundLocation = "Cercle.wav";
             player.Play();
         }
 
         private void btnRectangle_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Rectangle.wav";
+            player.SoundLocation = "Rectangle.wav";
             player.Play();
         }
 
         private void btnLosange_Click(object sender, EventArgs e)
         {
-            player.SoundLocation = @"C:\Users\M.Faeedh\source\repos\Languages Game\Languages Game\Resources\Losange.wav";
+            player.SoundLocation = "Losange.wav";
             player.Play();
         }
 
         private void btnContinue_Click(object sender, EventArgs e)
         {
+            FrmShapes_F2 F2 = new FrmShapes_F2();
             this.Hide();
-            FrmShapes_F2 shapes = new FrmShapes_F2();
-            shapes.ShowDialog();
+            F2.ShowDialog();
         }
 
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            FrmCategoriesF F = new FrmCategoriesF();
+            this.Hide();
+            F.ShowDialog();
+        }
     }
 }

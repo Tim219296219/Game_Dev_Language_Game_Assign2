@@ -16,7 +16,7 @@ namespace Languages_Game
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmMain());
+            Application.Run(new Splash_Screen());
         }
     }
 }

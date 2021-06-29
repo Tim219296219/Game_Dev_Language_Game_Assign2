@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animals_S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animals_S1.Designer.cs">
+      <DependentUpon>Animals_S1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Animals_F1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Animals_F1.Designer.cs">
       <DependentUpon>Animals_F1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Animals_S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animals_S2.Designer.cs">
+      <DependentUpon>Animals_S2.cs</DependentUpon>
     </Compile>
     <Compile Include="Animals_F2.cs">
       <SubType>Form</SubType>
@@ -58,11 +70,23 @@
     <Compile Include="Animals_F2.Designer.cs">
       <DependentUpon>Animals_F2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Animals_S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Animals_S3.Designer.cs">
+      <DependentUpon>Animals_S3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Animals_F3.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Animals_F3.Designer.cs">
       <DependentUpon>Animals_F3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Categories_S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categories_S.Designer.cs">
+      <DependentUpon>Categories_S.cs</DependentUpon>
     </Compile>
     <Compile Include="Categories_F.cs">
       <SubType>Form</SubType>
@@ -70,29 +94,89 @@
     <Compile Include="Categories_F.Designer.cs">
       <DependentUpon>Categories_F.cs</DependentUpon>
     </Compile>
-    <Compile Include="Greetings_F1.cs">
+    <Compile Include="Shapes_S3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Greetings_F1.Designer.cs">
-      <DependentUpon>Greetings_F1.cs</DependentUpon>
+    <Compile Include="Shapes_S3.Designer.cs">
+      <DependentUpon>Shapes_S3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Greetings_F2.cs">
+    <Compile Include="Shapes_F3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Greetings_F2.Designer.cs">
-      <DependentUpon>Greetings_F2.cs</DependentUpon>
+    <Compile Include="Shapes_F3.Designer.cs">
+      <DependentUpon>Shapes_F3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Greetings_F3.cs">
+    <Compile Include="Fruits_S1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Greetings_F3.Designer.cs">
-      <DependentUpon>Greetings_F3.cs</DependentUpon>
+    <Compile Include="Fruits_S1.Designer.cs">
+      <DependentUpon>Fruits_S1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruits_F1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits_F1.Designer.cs">
+      <DependentUpon>Fruits_F1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruits_S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits_S2.Designer.cs">
+      <DependentUpon>Fruits_S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fruits_S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits_S3.Designer.cs">
+      <DependentUpon>Fruits_S3.cs</DependentUpon>
     </Compile>
     <Compile Include="Main_Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main_Menu.Designer.cs">
       <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_F5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_F5.Designer.cs">
+      <DependentUpon>Numbers_F5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S2.Designer.cs">
+      <DependentUpon>Numbers_S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S3.Designer.cs">
+      <DependentUpon>Numbers_S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S5.Designer.cs">
+      <DependentUpon>Numbers_S5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S4.Designer.cs">
+      <DependentUpon>Numbers_S4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S6.Designer.cs">
+      <DependentUpon>Numbers_S6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_S1.Designer.cs">
+      <DependentUpon>Numbers_S1.cs</DependentUpon>
     </Compile>
     <Compile Include="Numbers_F1.cs">
       <SubType>Form</SubType>
@@ -112,6 +196,54 @@
     <Compile Include="Numbers_F3.Designer.cs">
       <DependentUpon>Numbers_F3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Numbers_F4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_F4.Designer.cs">
+      <DependentUpon>Numbers_F4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Numbers_F6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Numbers_F6.Designer.cs">
+      <DependentUpon>Numbers_F6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_S3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_S3.Designer.cs">
+      <DependentUpon>Phrases_S3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_S2.Designer.cs">
+      <DependentUpon>Phrases_S2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_S1.Designer.cs">
+      <DependentUpon>Phrases_S1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_F1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_F1.Designer.cs">
+      <DependentUpon>Phrases_F1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_F3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_F3.Designer.cs">
+      <DependentUpon>Phrases_F3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phrases_F2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phrases_F2.Designer.cs">
+      <DependentUpon>Phrases_F2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Select_Language.cs">
@@ -120,11 +252,29 @@
     <Compile Include="Select_Language.Designer.cs">
       <DependentUpon>Select_Language.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fruits_F2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fruits_F2.Designer.cs">
+      <DependentUpon>Fruits_F2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_S1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shapes_S1.Designer.cs">
+      <DependentUpon>Shapes_S1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Shapes_F1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Shapes_F1.Designer.cs">
       <DependentUpon>Shapes_F1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shapes_S2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shapes_S2.Designer.cs">
+      <DependentUpon>Shapes_S2.cs</DependentUpon>
     </Compile>
     <Compile Include="Shapes_F2.cs">
       <SubType>Form</SubType>
@@ -132,35 +282,83 @@
     <Compile Include="Shapes_F2.Designer.cs">
       <DependentUpon>Shapes_F2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Shapes_F3.cs">
+    <Compile Include="Fruits_F3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Shapes_F3.Designer.cs">
-      <DependentUpon>Shapes_F3.cs</DependentUpon>
+    <Compile Include="Fruits_F3.Designer.cs">
+      <DependentUpon>Fruits_F3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Splash_Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash_Screen.Designer.cs">
+      <DependentUpon>Splash_Screen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Animals_S1.resx">
+      <DependentUpon>Animals_S1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Animals_F1.resx">
       <DependentUpon>Animals_F1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Animals_S2.resx">
+      <DependentUpon>Animals_S2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Animals_F2.resx">
       <DependentUpon>Animals_F2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Animals_S3.resx">
+      <DependentUpon>Animals_S3.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Animals_F3.resx">
       <DependentUpon>Animals_F3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Categories_S.resx">
+      <DependentUpon>Categories_S.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Categories_F.resx">
       <DependentUpon>Categories_F.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Greetings_F1.resx">
-      <DependentUpon>Greetings_F1.cs</DependentUpon>
+    <EmbeddedResource Include="Shapes_S3.resx">
+      <DependentUpon>Shapes_S3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Greetings_F2.resx">
-      <DependentUpon>Greetings_F2.cs</DependentUpon>
+    <EmbeddedResource Include="Shapes_F3.resx">
+      <DependentUpon>Shapes_F3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Greetings_F3.resx">
-      <DependentUpon>Greetings_F3.cs</DependentUpon>
+    <EmbeddedResource Include="Fruits_S1.resx">
+      <DependentUpon>Fruits_S1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruits_F1.resx">
+      <DependentUpon>Fruits_F1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruits_S2.resx">
+      <DependentUpon>Fruits_S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fruits_S3.resx">
+      <DependentUpon>Fruits_S3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main_Menu.resx">
       <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_F5.resx">
+      <DependentUpon>Numbers_F5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S2.resx">
+      <DependentUpon>Numbers_S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S3.resx">
+      <DependentUpon>Numbers_S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S5.resx">
+      <DependentUpon>Numbers_S5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S4.resx">
+      <DependentUpon>Numbers_S4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S6.resx">
+      <DependentUpon>Numbers_S6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_S1.resx">
+      <DependentUpon>Numbers_S1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Numbers_F1.resx">
       <DependentUpon>Numbers_F1.cs</DependentUpon>
@@ -170,6 +368,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Numbers_F3.resx">
       <DependentUpon>Numbers_F3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_F4.resx">
+      <DependentUpon>Numbers_F4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Numbers_F6.resx">
+      <DependentUpon>Numbers_F6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_S3.resx">
+      <DependentUpon>Phrases_S3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_S2.resx">
+      <DependentUpon>Phrases_S2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_S1.resx">
+      <DependentUpon>Phrases_S1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_F1.resx">
+      <DependentUpon>Phrases_F1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_F3.resx">
+      <DependentUpon>Phrases_F3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phrases_F2.resx">
+      <DependentUpon>Phrases_F2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -184,14 +406,26 @@
     <EmbeddedResource Include="Select_Language.resx">
       <DependentUpon>Select_Language.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Fruits_F2.resx">
+      <DependentUpon>Fruits_F2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapes_S1.resx">
+      <DependentUpon>Shapes_S1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Shapes_F1.resx">
       <DependentUpon>Shapes_F1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shapes_S2.resx">
+      <DependentUpon>Shapes_S2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Shapes_F2.resx">
       <DependentUpon>Shapes_F2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Shapes_F3.resx">
-      <DependentUpon>Shapes_F3.cs</DependentUpon>
+    <EmbeddedResource Include="Fruits_F3.resx">
+      <DependentUpon>Fruits_F3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash_Screen.resx">
+      <DependentUpon>Splash_Screen.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -271,6 +505,204 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iffel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backyard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The wild%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ocean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eiffel Tower.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\num back.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spanish flag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\France Eiffel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fr back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raisin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raisin - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Citron.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fraise.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bananes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pomme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Language.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numbers bg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Number bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fruit bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eiffel bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parrot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bears.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cats.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dogs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolphin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolphins.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fishs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Goldfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gfish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horses.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horse.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Monkeys.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ocean1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oceans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parrots.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pets%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whale.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Whales.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wild.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wolf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WOlfs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sharks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shark.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background-sand-on-beach.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sea%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-clear-creative-texture-dark-blue-sea-background-image_331088.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash screen 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash screen 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Splash screen  3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select language 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select language 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select language 21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spain oragami.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\French oragami.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shape bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Number backg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -40,7 +40,7 @@ namespace Languages_Game
             this.btnFrench.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnFrench.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnFrench.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFrench.Location = new System.Drawing.Point(243, 111);
+            this.btnFrench.Location = new System.Drawing.Point(147, 76);
             this.btnFrench.Name = "btnFrench";
             this.btnFrench.Size = new System.Drawing.Size(91, 72);
             this.btnFrench.TabIndex = 0;
@@ -53,7 +53,7 @@ namespace Languages_Game
             this.btnSpanish.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnSpanish.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSpanish.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSpanish.Location = new System.Drawing.Point(243, 215);
+            this.btnSpanish.Location = new System.Drawing.Point(147, 180);
             this.btnSpanish.Name = "btnSpanish";
             this.btnSpanish.Size = new System.Drawing.Size(91, 72);
             this.btnSpanish.TabIndex = 1;
@@ -63,22 +63,26 @@ namespace Languages_Game
             // lblHeading
             // 
             this.lblHeading.AutoSize = true;
-            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHeading.Location = new System.Drawing.Point(141, 53);
+            this.lblHeading.BackColor = System.Drawing.Color.Transparent;
+            this.lblHeading.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeading.Location = new System.Drawing.Point(104, 15);
             this.lblHeading.Name = "lblHeading";
-            this.lblHeading.Size = new System.Drawing.Size(76, 25);
+            this.lblHeading.Size = new System.Drawing.Size(185, 25);
             this.lblHeading.TabIndex = 2;
-            this.lblHeading.Text = "label1";
+            this.lblHeading.Text = "Select a language";
             // 
             // FrmLangSelect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(584, 412);
+            this.BackgroundImage = global::Languages_Game.Properties.Resources.Select_language_21;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(384, 282);
             this.Controls.Add(this.lblHeading);
             this.Controls.Add(this.btnSpanish);
             this.Controls.Add(this.btnFrench);
+            this.MaximizeBox = false;
             this.Name = "FrmLangSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Language Game";
